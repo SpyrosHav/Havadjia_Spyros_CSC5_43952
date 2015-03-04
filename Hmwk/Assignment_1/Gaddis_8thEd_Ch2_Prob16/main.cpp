@@ -22,16 +22,15 @@ int main(int argc, char** argv) {
     cout<<"What letter would you like the diamond to be constructed with?";
     cin>>x;
 //Begin output
-    cout<<"        "<<x<<x<<endl;
-    cout<<"      "<<x<<"    "<<x<<endl;
-    cout<<"    "<<x<<"        "<<x<<endl;
-    cout<<"  "<<x<<"            "<<x<<endl;
-    cout<<x<<"                "<<x<<endl;
-    cout<<x<<"                "<<x<<endl;
-    cout<<"  "<<x<<"            "<<x<<endl;
-    cout<<"    "<<x<<"        "<<x<<endl;
-    cout<<"      "<<x<<"    "<<x<<endl;
-    cout<<"        "<<x<<x<<endl;
+    cout<<"        "<<x<<endl;
+    cout<<"       "<<x<<x<<x<<endl;
+    cout<<"      "<<x<<x<<x<<x<<x<<endl;
+    cout<<"     "<<x<<x<<x<<x<<x<<x<<x<<endl;
+    cout<<"    "<<x<<x<<x<<x<<x<<x<<x<<x<<x<<endl;
+    cout<<"     "<<x<<x<<x<<x<<x<<x<<x<<endl;
+    cout<<"      "<<x<<x<<x<<x<<x<<endl;
+    cout<<"       "<<x<<x<<x<<endl;
+    cout<<"        "<<x<<endl;
 
     //End
     return 0;
