@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Spyros Havadjia
- *      Purpose: 2nd Homework Problem
+ *      Purpose: For Demonstration Purposes
  * Created on March 4, 2015, 8:29 AM
  */
 
