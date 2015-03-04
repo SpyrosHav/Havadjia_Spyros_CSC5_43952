@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     cout<<"Calculate Values:"<<endl;
     cout<<"Number of Energy Drinkers = "<<nEDrnks<<endl;
     cout<<"Number of Citrus Drinkers = "<<nCDrnks<<endl;
-    
+        //Exit
         return 0;
 }
 
