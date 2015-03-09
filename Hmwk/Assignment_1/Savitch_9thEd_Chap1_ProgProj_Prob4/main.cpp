@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
     dstnce=G*1/2*time*time;
     //Output the result
     cout<<"Distance Fallen="<<dstnce<<"(feet)"<<endl;
-    cout<<"Distance Fallen"<<dstnce*CNVFTMT<<"(meters)"<<endl;
+    cout<<"Distance Fallen="<<dstnce*CNVFTMT<<"(meters)"<<endl;
     //Exit
             return 0;
 }

@@ -18,8 +18,8 @@ using namespace std;
 //Execution
 int main(int argc, char** argv) {
         //State the Variables
-    int num1,num2,num3,num4,num5;
-    int Sum,nAvg;
+    unsigned short num1,num2,num3,num4,num5;
+    unsigned short Sum,nAvg;
         //Input/Values of known Variables
     num1=28;
     num2=32;
