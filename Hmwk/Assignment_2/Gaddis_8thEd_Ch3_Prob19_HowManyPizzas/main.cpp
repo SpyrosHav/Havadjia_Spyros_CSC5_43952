@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     //Define Variables
     float dPizza,rPizza,aPizza,nSlices,tPizzas;
     float aSlice=14.125; //Area of single slice in inches.
-    char onePrsn=4,tPrsns;
+    short onePrsn=4,tPrsns;
     //Begin output
     cout<<"This program will calculate the number of pizzas of a given size needed for a party."<<endl;
     cout<<"First, enter the diameter of the pizza you would like, in inches."<<endl;
@@ -33,11 +33,10 @@ int main(int argc, char** argv) {
     rPizza=dPizza/2.0;
     aPizza=Pi * pow(rPizza, 2.0);
     nSlices=aPizza/aSlice;
-    tPizzas=(onePrsn/nSlices)*tPrsns;
+    tPizzas=(onePrsn/nSlices)* tPrsns;
     //Output
     cout<<fixed<<setprecision(1)<<showpoint<<endl; //Formatting of output
     cout<<"The number of pizzas of this diameter that will be needed is: "<<tPizzas<<" pizzas."<<endl;
-    cout<<nSlices;
     return 0;
 }
 
