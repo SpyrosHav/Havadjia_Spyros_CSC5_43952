@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     //Define Variables
     string uName,uCity,uCllge,uPrfsn,uAnim,uPName;
     unsigned short uAge;
-    //Output
+    //Prompt for inputs
     cout<<"This is a Word Game Program! Lets put together a fun story together!"<<endl;
     cout<<"First, what's your name?"<<endl;
     getline(cin,uName);
@@ -41,8 +41,9 @@ int main(int argc, char** argv) {
     getline(cin,uPName);
     cout<<endl;
     cout<<"Fantastic! Now that we've learned all that, here's how our story goes:"<<endl<<endl;
-    
+    //Inputs applied and execute output
     cout<<"There once was a person named "<<uName<<" who lived in "<<uCity<<". At the age of "<<endl<<uAge<<", "<<uName<<" went to college at "<<uCllge<<". "<<uName<<" graduated and went to work "<<endl<<"as a "<<uPrfsn<<". Then, "<<uName<<" adopted a(n) "<<uAnim<<" named "<<uPName<<". They "<<endl<<"both lived happily ever after!"<<endl;
+    //exit
     return 0;
 }
 

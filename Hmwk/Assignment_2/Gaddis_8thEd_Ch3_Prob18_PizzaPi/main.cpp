@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
     //Output
     cout<<fixed<<setprecision(1)<<showpoint<<endl; //Formatting of output
     cout<<"A pizza of this diameter can be cut into "<<nSlices<<" slices."<<endl;
+    //exit
     return 0;
 }
 
