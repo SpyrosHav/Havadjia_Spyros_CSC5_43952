@@ -22,6 +22,7 @@ int main(int argc, char** argv) {
     //Define Variables
     string nMnth1,nMnth2,nMnth3;
     float rMnth1,rMnth2,rMnth3,rAvg;
+    //Prompt for inputs
     cout<<"This program will calculate average rainfall."<<endl;
     cout<<"Enter any month and the amount of rainfall in inches, separating the two with  space between them."<<endl;
     cin>>nMnth1>>rMnth1;
