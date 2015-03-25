@@ -19,10 +19,10 @@ using namespace std;
 //Execution
 int main(int argc, char** argv) {
 //Define Variables
-    short rnnr1,rnnr2,rnnr3;
+    short rnnr1,rnnr2,rnnr3,fplace,splace,tplacr;
     int tme1,tme2,tme3;
 //Begin display
-    <<cout"This program calculates 1st 2nd and 3rd place for specified runners"<<endl<<" of te race"<<endl;
+    cout<<"This program calculates 1st 2nd and 3rd place for specified runners"<<endl<<" of te race"<<endl;
 //Prompt for inputs
     cout<<"Enter the name and time of the first runner(Separate by spacing)."<<endl;
     cin>>rnnr1>>tme1;
@@ -31,7 +31,8 @@ int main(int argc, char** argv) {
     cout<<"Enter the name and time of the third runner(Separate by spacing)."<<endl;
     cin>>rnnr3>>tme3;
 //Begin evalutaing & Outputting.
-    
+    if(tme1>tme2)
+        
     return 0;
 }
 
