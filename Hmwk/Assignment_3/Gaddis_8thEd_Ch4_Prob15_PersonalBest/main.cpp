@@ -6,7 +6,7 @@
  * Created on March 23, 2015, 10:42 AM
  */
 
-//Sstem Libraries
+//System Libraries
 #include <iostream>
 #include<string>
 using namespace std;
@@ -47,17 +47,17 @@ int main(int argc, char** argv) {
     //conditioning
     if((vlt1<2.0 || vlt2<2.0 || vlt3<2.0) || (vlt1>5.0 || vlt2>5.0 || vlt3>5.0)){
         cout<<"Vault must be positive for all of the above inputs."<<endl<<"Restart the program and try again"<<endl;
-    }else if(vlt1>vlt2 && vlt1>vlt3){
-        if(vlt2>vlt3){ //2nd place to runnr2
+    }else if(vlt1>vlt2 && vlt1>vlt3){//vault1 Best
+        if(vlt2>vlt3){ //
             cout<<date1<<" Is "<<name<<"'s best with a height of "<<vlt1<<endl;
             cout<<date2<<" Is "<<name<<"'s second best with a height of "<<vlt2<<endl;
             cout<<date3<<" Is "<<name<<"'s third best with a height of "<<vlt3<<endl;
-        }else if(vlt2<vlt3){//2nd place to runner3
+        }else if(vlt2<vlt3){
             cout<<date1<<" Is "<<name<<"'s best with a height of "<<vlt1<<endl;
             cout<<date3<<" Is "<<name<<"'s second best with a height of "<<vlt3<<endl;
             cout<<date2<<" Is "<<name<<"'s third best with a height of "<<vlt2<<endl;
         }
-    }else if(vlt2>vlt1 && vlt2>vlt3){
+    }else if(vlt2>vlt1 && vlt2>vlt3){ //vault2 best
         if(vlt1>vlt3){
             cout<<date2<<" Is "<<name<<"'s best with a height of "<<vlt2<<endl;
             cout<<date1<<" Is "<<name<<"'s second best with a height of "<<vlt1<<endl;
@@ -67,7 +67,7 @@ int main(int argc, char** argv) {
             cout<<date3<<" Is "<<name<<"'s second best with a height of "<<vlt3<<endl;
             cout<<date1<<" Is "<<name<<"'s third best with a height of "<<vlt1<<endl;
         }
-    }else if (vlt3>vlt1 && vlt3>vlt2){
+    }else if (vlt3>vlt1 && vlt3>vlt2){//vault3 best
         if(vlt1>vlt2){
             cout<<date3<<" Is "<<name<<"'s best with a height of "<<vlt3<<endl;
             cout<<date1<<" Is "<<name<<"'s second best with a height of "<<vlt1<<endl;
@@ -78,6 +78,7 @@ int main(int argc, char** argv) {
             cout<<date1<<" Is "<<name<<"'s third best with a height of "<<vlt1<<endl;
         }
     }
+    //exit
     return 0;
 }
 

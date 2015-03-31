@@ -6,7 +6,7 @@
  * Created on March 23, 2015, 10:42 AM
  */
 
-//Sstem Libraries
+//System Libraries
 #include <iostream>
 #include<string>
 using namespace std;
@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     getline(cin, rnnr3);
     cout<<"Enter the time of the third runner"<<endl;
     cin>>tme3;
-    //conditioning
+    //conditioning & outputs
     if(tme1<0 || tme2<0 || tme3<0){
         cout<<"Time must be positive for all of the above inputs."<<endl<<"Restart the program and try again"<<endl;
     }else if(tme1<tme2 && tme1<tme3){
@@ -73,6 +73,7 @@ int main(int argc, char** argv) {
             cout<<rnnr1<<" came in third with a time of "<<tme1<<endl;
         }
     }
+    //exit
     return 0;
 }
 

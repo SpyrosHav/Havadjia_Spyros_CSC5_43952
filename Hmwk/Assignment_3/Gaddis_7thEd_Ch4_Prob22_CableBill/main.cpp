@@ -66,5 +66,6 @@ int main(int argc, char** argv) {
     out<<"Your Bill comes out to: "<<bill<<endl;
     //Close the file
     out.close();
+    //exit
     return 0;
 }

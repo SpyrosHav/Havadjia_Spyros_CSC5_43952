@@ -34,6 +34,7 @@ int main(int argc, char** argv) {
         }else{
             cout<<"The object has a weight of "<<weight<<" Newtons"<<endl;
         }
+    //exit
     return 0;
 }
 
