@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Spyros Havadjia
  *     Purpose: Assignment 3
- *          Mass And Weight
+ *          BMI
  * Created on March 30, 2015, 2:58 PM
  */
 
@@ -38,6 +38,7 @@ int main(int argc, char** argv) {
         }else{
             cout<<"Your BMI is: "<<BMI<<" and is considered optimal. Good Job!"<<endl;
         }
+    //exit
     return 0;
 }
 
