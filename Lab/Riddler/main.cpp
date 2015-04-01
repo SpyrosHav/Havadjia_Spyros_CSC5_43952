@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
                       (d1!=d10&&d1!=d100&&d1!=d1000&&
                       d10!=d100&&d10!=d1000&&
                       d100!=d1000)){
-                       cout<<"The Riddlers Target address= ";
+                       cout<<"The Riddlers Target address = ";
                        cout<<d1000<<d100<<d10<<d1<<endl;
                    }
                }
